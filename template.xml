@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<template
+	format="5"
+	revision="1"
+	name="Mvp Base"
+	description="Creates generic base mvp including mvp app"
+	minApi="19"
+	minBuildApi="19"
+	>
+	
+	<category value="MVP"/>
+	
+	<globals file="globals.xml.ftl" />
+	<execute file="recipe.xml.ftl"/>
+	
+</template>
