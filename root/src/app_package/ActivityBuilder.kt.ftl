@@ -1,5 +1,8 @@
-package ${packageName}.base
+package ${packageName}.di
 
+
+import dagger.Module
+import dagger.android.ContributesAndroidInjector
 
 /**
  * Template created by 
@@ -9,8 +12,6 @@ package ${packageName}.base
  * -------------------------------------------------
  * ${packageName}
  */
-interface MvpPresenter<V: MvpView, I: MvpInteractor> {
-    fun onAttach(view: V?)
-    fun onDetach()
-    fun getView(): V?
+@Module
+abstract class ActivityBuilder {
 }
